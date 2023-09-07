@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+header{
+    text-align: right;
+    padding: 30px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    background-color: black;
+    position: sticky;
+}
+
+.menubar{
+    display: flex;
+    justify-content: right;
+}
+
+.menubar ul{
+    display: flex;
+    justify-content: right;
+    gap: 1pc;
+    align-content: center;
+    top: 5pc;
+}
