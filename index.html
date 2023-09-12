@@ -5,23 +5,111 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Website</title>
     <link rel="stylesheet" href="styles.css">
+    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 496 512"></svg>
+    <script async="" src="https://www.google-analytics.com/analytics.js"></script>
 </head>
 <body>
     <header>
-        <div>
-            <nav class="menubar">
-                <ul>
-                    <li><a href="">About me</a></li>
-                    <li><a href="">Portafolio</a></li>
-                    <li><a href="">Reviews</a></li>
-                    <li><a href="">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
+        <nav class="menubar">
+            <ul>
+                <li><a href="#introduccion">About me</a></li>
+                <li><a href="#historial">Reviews</a></li>
+                <li><a href="#social">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-    <section class="container section">
+    <section class="portada">
+        <figure class="image_me">
+            <img src="Images/Me-Portada.jpg">
+    </section>
+    <section id="introduccion" class="introduccion">
         <div>
+            <h1>
+                38 Years Old | <span>COLOMBIA</span> | System Engeneering
+            </h1>
+        </div>
+        <div>
+            <p>
+                I am Ramsés Escorcia, a System Engeneering with a great passion for the work I do. 
+                During my career, I have worked with different companies and different projects. 
+                Find some more information about my education and career below. 
+            </p>
         </div>
     </section>
+    <section id="historial" class="historial">
+        <h1>EDUCATION & CAREER</h1>
+        <div class="wrapper">
+            <div class="izquierda">
+                <ul>
+                    <li>2005</li>
+                    <li>2020</li>
+                </ul>
+            </div>
+            <div class="linea">
+                <hr>
+            </div>
+            <div class="derecha">
+                <div class="etapa">
+                    <h2>Grado Universitario</h2>
+                    <p>Universidad Simón</p>
+                    <p>Ingeniería de Sistemas</p>
+                </div>
+                <div class="etapa">
+                    <h2>Carrera Profesional</h2>
+                    <p>IMTTRASOL</p>
+                    <p>Jefe Oficina de Sistemas</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonios">
+        <div class="testimonio">
+            <img src="Images/LuffyAvatar.png" alt="Avatar 1">
+            <div class="testimonio-contenido">
+                <h2>Monkey D. Luffy</h2>
+                <p>Desarrolladora Web</p>
+                <blockquote>
+                    "Excelente servicio. ¡Mi experiencia ha sido increíble! El equipo siempre está dispuesto a ayudar y resolver cualquier problema."
+                </blockquote>
+            </div>
+        </div>
+
+        <div class="testimonio">
+            <img src="Images/KenshinAvatar.jpg" alt="Avatar 2">
+            <div class="testimonio-contenido">
+                <h2>Kenshin Himura</h2>
+                <p>Diseñador Gráfico</p>
+                <blockquote>
+                    "Los productos son de alta calidad y el servicio al cliente es excepcional. ¡Recomendaría esta empresa a todos!"
+                </blockquote>
+            </div>
+        </div>
+    </section>
+
+    <section id="social" class="redes-sociales">
+        <div class="red-social">
+            <a href="https://www.facebook.com" target="_blank">
+                <i class="fab fa-facebook"></i>
+                <span>Facebook</span>
+            </a>
+        </div>
+        <div class="red-social">
+            <a href="https://www.instagram.com" target="_blank">
+                <i class="fab fa-instagram"></i>
+                <span>Instagram</span>
+            </a>
+        </div>
+        <div class="red-social">
+            <a href="https://www.twitter.com" target="_blank">
+                <i class="fab fa-twitter"></i>
+                <span>Twitter</span>
+            </a>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Proyecto BlogPersonal</p>
+    </footer>
 </body>
 </html>
+
